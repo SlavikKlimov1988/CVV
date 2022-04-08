@@ -57,10 +57,18 @@ footer{
    .container {
      width: 768px;
    }
+   img{
+      width: 250px;
+      height:auto;
+   }
  }
  
  @media screen and (min-width: 1200px) {
    .container {
      width: 1200px;
+   }
+   img{
+      width: 300px;
+      height:auto;
    }
 }
